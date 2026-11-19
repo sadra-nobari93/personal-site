@@ -1,0 +1,45 @@
+html = """<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت صدرا نوبری</title>
+</head>
+<body>
+
+    <header>
+        <h1>سایت صدرا نوبری</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>رزومه کاری من</h2>
+
+            <h3>اطلاعات شخصی</h3>
+            <p><strong>نام:</strong> صدرا نوبری</p>
+            <p><strong>سن:</strong> [سن خود را وارد کنید]</p>
+            <p><strong>تحصیلات:</strong> [مقطع یا پایه تحصیلی خود را وارد کنید]</p>
+
+            <h3>مهارت‌ها</h3>
+            <ul>
+                <li>پایتون (Python)</li>
+                <li>برنامه‌نویسی</li>
+                <li>وردپرس (WordPress)</li>
+                <li>لینوکس (Linux)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <h2>راه‌های ارتباطی</h2>
+        <p><strong>شماره تلفن:</strong> 09926758785</p>
+        <p><strong>ایمیل:</strong> sadranobari93@gmail.com</p>
+    </footer>
+
+</body>
+</html>
+"""
+path = "/mnt/data/sadra_nobari.html"
+with open(path, "w", encoding="utf-8") as f:
+    f.write(html)
+print(path)
